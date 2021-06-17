@@ -1,0 +1,29 @@
+h1{
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+ul{
+    background-color: salmon;
+}
+.classe-estilo{
+    background-color: springgreen;
+    text-align: left;
+}
+p{
+    font-weight: 600;
+    line-height: 300%;
+    text-decoration: underline;
+}
+body{
+    background-color: #282A36;
+}
+#amarelo{
+    background-color:yellow ;
+}
+#vermelho{
+    background-color: red;
+}
+#marrom{
+    background-color: brown;
+}

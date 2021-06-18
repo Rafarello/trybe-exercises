@@ -1,0 +1,13 @@
+h1, p {
+    text-align: center;
+}
+li:hover {
+    background-color: springgreen;
+}
+li:active {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+ul,ol {
+    list-style: none;
+}

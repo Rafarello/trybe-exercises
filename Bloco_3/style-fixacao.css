@@ -1,0 +1,26 @@
+h1{
+    font-size: 65px;
+    color: orange;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+h2{
+    color: green;
+    font-size: 2em;
+}
+body{
+    background-color: rgb(255,400,200);
+}
+.pessoas{
+    background-color: silver;
+}
+#estilo-de-lista{
+   color: salmon; 
+   font-weight: bold;
+   line-height: 30px;
+   text-align: left;
+}
+p {
+    font-family: fantasy, 'Courier New', Courier, monospace;
+    font-weight: 600;
+}

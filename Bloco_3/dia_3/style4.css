@@ -1,0 +1,29 @@
+
+.paleta-verde-claro {
+    background-color: springgreen;
+    
+}
+.paleta-amarelo {
+    background-color: yellow;
+   
+
+}
+.paleta-vermelho {
+    background-color: tomato;
+    padding: 12px 4px 12px 4px;
+    max-width: 30%;
+    
+}
+.paleta-cinza-escuro {
+     background-color: darkgrey;
+}   
+.paleta-cinza-claro {
+     background-color: lightgray;   
+}
+.paleta-cores:hover {
+    border: 4px solid; 
+}
+.paleta-amarelo, .paleta-cinza-claro, .paleta-cinza-escuro, .paleta-verde-claro{
+    max-width: 30%;
+    padding: 4px; 
+} 

@@ -1,4 +1,4 @@
-// seitch -- case
+// switch -- case
 
 let trafficLight;
 

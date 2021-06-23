@@ -16,5 +16,5 @@ if (a > b && a > c){
     console.log(`${c} é maior que ${a} e ${b}`);
     console.log(c);
 } else {
-    console.log("Dados de entrada inválidos")
+    console.log("Dados de entrada inválidos");
 }

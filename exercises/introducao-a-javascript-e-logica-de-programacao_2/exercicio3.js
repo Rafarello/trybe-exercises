@@ -16,6 +16,7 @@ for (let indice = 0; indice < numbers.length ; indice += 1) {
     resultado += numbers[indice];
 }
 
-let media = (resultado / (numbers.length) )
+let media = (resultado / (numbers.length) );
 
-console.log(`A média aritmética dos elementos do Array é ${media}`)
+
+console.log(`A média aritmética dos elementos do Array é ${media}`);

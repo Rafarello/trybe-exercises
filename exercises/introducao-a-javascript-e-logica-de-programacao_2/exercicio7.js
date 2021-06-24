@@ -10,7 +10,7 @@ Utilizando for , descubra qual o menor valor contido no array e imprima-o;
 
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-let menorValor;
+let menorValor = Number.POSITIVE_INFINITY;
 
 for (let contador = 0; contador < numbers.length; contador +=1) {
     

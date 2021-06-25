@@ -19,12 +19,12 @@ let n;
 
 n = 5;
 
-let linhaDeAsteriscos = ''
+let linhaDeAsteriscos = '';
 
 for (let numeroDeAsteriscos = 1; numeroDeAsteriscos <= n; numeroDeAsteriscos += 1 ) {
     
     linhaDeAsteriscos += '*'
-    console.log(linhaDeAsteriscos)
+    console.log(linhaDeAsteriscos);
 } 
 
 

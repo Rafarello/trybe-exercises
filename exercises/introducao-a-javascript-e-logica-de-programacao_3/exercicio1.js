@@ -29,3 +29,4 @@ for ( let numeroDeLinhas = 1; numeroDeLinhas <= n; numeroDeLinhas +=1 ) {
     
     console.log(linhaDeAsteriscos)
 }
+

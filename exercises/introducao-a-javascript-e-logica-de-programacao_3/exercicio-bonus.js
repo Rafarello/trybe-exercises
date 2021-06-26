@@ -30,13 +30,9 @@ if (n % 2 !== 0) {
                 linha += '*'
             }
         } else {
-
             for (let i = index; i < n; i += 1) {
-
                 if (i === primeiroAst || i === ultimoAst) {
-
                     linha += '*';
-
                 } else if (i !== primeiroAst && i < n) {
                     linha += ' '
                 }
@@ -47,5 +43,4 @@ if (n % 2 !== 0) {
 
 } else {
     console.log("Por favor inserir um valor ímpar")
-
 }

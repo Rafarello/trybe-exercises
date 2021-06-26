@@ -40,7 +40,7 @@ if (n % 2 !== 0) {
     let primeiroAsterisco = meioDaMatrix;
     let ultimoAsterisco = meioDaMatrix;
 
-    for (let index = 1; index <= meioDaMatrix; index += 1, ultimoAsterisco += 1, primeiroAsterisco -= 1) {
+    for (let index = 0; index <= meioDaMatrix; index += 1, ultimoAsterisco += 1, primeiroAsterisco -= 1) {
         let linha = '';
         for (i = 0; i <= n; i += 1) {
             if (i === primeiroAsterisco || i === ultimoAsterisco || index === meioDaMatrix) {

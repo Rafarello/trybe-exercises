@@ -23,7 +23,6 @@ if (n % 2 !== 0) {
     let meioDaMatrix = (n + 1) / 2
     let primeiroAsterisco = meioDaMatrix;
     let ultimoAsterisco = meioDaMatrix;
-
     for (let index = 1; index <= meioDaMatrix; index += 1, ultimoAsterisco += 1, primeiroAsterisco -= 1) {
         let linha = '';
         for (i = 1; i <= n; i += 1) {
@@ -36,19 +35,6 @@ if (n % 2 !== 0) {
         console.log(linha)
     }
 } else {
-    let meioDaMatrix = (n / 2)
-    let primeiroAsterisco = meioDaMatrix;
-    let ultimoAsterisco = meioDaMatrix;
-
-    for (let index = 0; index <= meioDaMatrix; index += 1, ultimoAsterisco += 1, primeiroAsterisco -= 1) {
-        let linha = '';
-        for (i = 0; i <= n; i += 1) {
-            if (i === primeiroAsterisco || i === ultimoAsterisco || index === meioDaMatrix) {
-                linha += '*';
-            } else {
-                linha += ' ';
-            }
-        }
-        console.log(linha)
-    }
+    console.log("Por favor inserir um valor ímpar")
 }
+

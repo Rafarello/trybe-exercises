@@ -59,4 +59,4 @@ for (let index = 1; index < numbers.length; index += 1) {
     }
       
   }
-  console.log(array)
+  console.log(`O resultado do exercício 3 é ${array}`)

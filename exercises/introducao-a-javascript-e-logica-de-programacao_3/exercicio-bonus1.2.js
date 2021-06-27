@@ -17,7 +17,7 @@ n = 7
 
 // Diferente do proposto, fiz um código que funcionasse com números pares também
 
-let n = 8;
+let n = 7;
 
 if (n % 2 !== 0) {
     let meioDaMatrix = (n + 1) / 2

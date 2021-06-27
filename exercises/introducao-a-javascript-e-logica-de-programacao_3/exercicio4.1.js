@@ -1,21 +1,16 @@
 /*
 
- Faça uma pirâmide com n asteriscos de base que seja vazia no meio. Assuma que o valor de n será sempre ímpar:
+Exercício 4:
 
-Por último, façamos com que a variável seja incrementada com o valor correspondente a cada loop;
+Depois, faça uma pirâmide com n asteriscos de base:
 
-n = 7
+n = 5
 
-   *
-  * *
- *   *
-*******
+  *
+ ***
+*****
 
 */
-
-
-
-
 
 let n;
 
@@ -35,7 +30,7 @@ if (n % 2 !== 0) {
             }
         } else {
             for (let i = index; i < n; i += 1) {
-                if (i === primeiroAst || i === ultimoAst) {
+                if (i >= primeiroAst || i <= ultimoAst) {
                     linha += '*';
                 } else if (i !== primeiroAst && i < n) {
                     linha += ' '

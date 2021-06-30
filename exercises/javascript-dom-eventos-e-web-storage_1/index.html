@@ -98,7 +98,24 @@
 
         toUpperCaseTag();
       
+        // Exercício 6: 
 
+        function showTagsOnConsole() {
+          let tags = document.getElementsByTagName('p');
+          for (index in tags) {
+            console.log(tags[index].innerHTML);
+          }
+        }
+
+        // Exercício 7:
+
+        function correctText() {
+          let changeH1 = document.getElementsByTagName('p')[0];
+          changeH1.innerHTML = 'O que eu quero para os próximos 5 anos:'; 
+          //Javaescripto tava nice d+
+        }
+
+        showTagsOnConsole();
 
     </script>
   </body>

@@ -82,16 +82,22 @@
 
         // Exercício 4:
 
-        function correctText () {
-          let changeH1 = document.getElementsByName('h1')[0];
-          changeH1.innerHTML = 'Exercício 5.1 - Javascript'; //Javaescripto tava nice d+
+        function correctText() {
+          let changeH1 = document.getElementsByTagName('h1')[0];
+          changeH1.innerHTML = 'Exercício 5.1 - Javascript'; 
+          //Javaescripto tava nice d+
         }
         correctText();
 
         // Exercício 5:
 
-        
+        function toUpperCaseTag() {
+          let toUpperCase = document.getElementsByTagName('p')[0];
+          toUpperCase.innerHTML = toUpperCase.innerHTML.toUpperCase();
+        }
 
+        toUpperCaseTag();
+      
 
 
     </script>

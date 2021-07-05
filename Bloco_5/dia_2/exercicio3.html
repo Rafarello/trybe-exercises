@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="paiDoPai">
+        <div id="pai">
+            <div id="primeiroFilho"></div>
+            <div id="elementoOndeVoceEsta">
+                <div id="primeiroFilhoDoFilho"></div>
+                <div id="segundoEUltimoFilhoDoFilho"></div>
+            </div>
+            Atenção!
+            <div id="terceiroFilho"></div>
+            <div id="quartoEUltimoFilho"></div>
+        </div>
+    </div>
+
+    <script>
+        // Exercicio único
+        
+        const pai = document.querySelector('#pai');
+        pai.removeChild(pai.children[3]);
+        pai.removeChild(pai.children[2]);
+        pai.removeChild(pai.children[0]);
+        pai.children[0].removeChild(pai.children[0].children[1]);
+        console.log(pai)
+    </script>
+</body>
+
+</html>

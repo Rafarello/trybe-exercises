@@ -151,6 +151,14 @@
 
         divCenter.style.backgroundColor = "green"
 
+        let lis = document.querySelectorAll('li');
+
+        console.log(lis)
+
+        for (let index = (lis.length-1); index >= 8; index -= 1) {
+            ulExercicio8.removeChild(lis[index]);
+        }
+
 
 
 

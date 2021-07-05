@@ -104,6 +104,17 @@
         image.className = 'small-image'
         divLeft.appendChild(image);
 
+        // Exercicio 8
+
+        const ulExercicio8 = document.createElement('ul');
+        divRight.appendChild(ulExercicio8);
+        
+        for (let index = 1; index <= 10; index +=1) {
+            const li = document.createElement('li');
+            li.innerText = Number(index);
+            ulExercicio8.appendChild(li);
+        }
+
     </script>
 </body>
 

@@ -15,6 +15,7 @@ createDaysOfTheWeek();
 
 // Escreva seu código abaixo.
 
+// Exercício 1
 
 
 function makeWeekDaysDynamically () {
@@ -25,9 +26,35 @@ function makeWeekDaysDynamically () {
         const dayNumber = dezDaysList[index];
         const dayNumberListItem = document.createElement('li');
         dayNumberListItem.innerHTML = dayNumber;
-
+            
+        if (dayNumber === 24 | dayNumber === 31 ) {
+            dayNumberListItem.className = 'day holiday';
+        } else if (dayNumber === 4 | dayNumber === 11 | dayNumber === 18){
+            dayNumberListItem.className = 'day friday';
+        } else if (dayNumber === 25) {
+            dayNumberListItem.className = 'day holiday friday';
+        } else {
+            dayNumberListItem.className = 'day';
+        }
         daysList.appendChild(dayNumberListItem);
     }
     
 }
+
 makeWeekDaysDynamically();
+
+// Exercício 2
+
+function makeButtonHolidays (holidays) {
+    holidays = "Feriados";
+    let buttonParent = document.querySelector('.buttons-container');
+    let button = document.createElement('button');
+    let buttonId = 'btn-holiday';
+
+    button.innerText = holidays;
+    button.id = buttonId;
+    buttonParent.appendChild(button);
+
+}
+
+makeButtonHolidays()

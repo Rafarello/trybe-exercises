@@ -23,13 +23,15 @@
 
     <script>
         // Exercicio único
-        
-        const pai = document.querySelector('#pai');
-        pai.removeChild(pai.children[3]);
-        pai.removeChild(pai.children[2]);
-        pai.removeChild(pai.children[0]);
-        pai.children[0].removeChild(pai.children[0].children[1]);
-        console.log(pai)
+
+
+        for (let index = pai.childNodes.length - 1; index >= 0; index -= 1) {
+            const currentChildren = pai.childNodes[index];
+            if (currentChildren.id !== 'elementoOndeVoceEsta') {
+                currentChildren.remove();
+                console.log(pai)
+            }
+        }
     </script>
 </body>
 

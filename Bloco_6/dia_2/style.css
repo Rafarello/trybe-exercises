@@ -1,0 +1,16 @@
+.btn-container {
+    margin: 40px 20px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.884);
+    color: white;
+}
+
+.form-control {
+    background-color: gainsboro;
+}
+
+.form-select {
+    background-color: gainsboro;
+}

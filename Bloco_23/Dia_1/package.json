@@ -2,16 +2,18 @@
   "name": "Dia_1",
   "version": "1.0.0",
   "description": "",
-  "main": "connection.js",
+  "main": "index.js",
   "dependencies": {
     "express": "^4.17.2",
     "mysql2": "^2.3.3"
   },
   "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-google": "^0.14.0",
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "run": "nodemon index.js",
+    "dev": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

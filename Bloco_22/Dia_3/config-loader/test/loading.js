@@ -60,4 +60,13 @@ describe("Carrega a configuração do arquivo",
         })
       })
 
+    describe("Quando o arquivo está presente com conteúdo JSON",
+      () => {
+        before(() => {
+          sinon.stub(fs, 'readFileSync').returns('{"debug": true}');
+        })
+        const config = loader("./test/fixtures/secret.json", { loadJSON: true });
+        expect(config).to.be.an.an('object');
+      })
+
   })
